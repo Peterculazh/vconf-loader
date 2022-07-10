@@ -1,0 +1,32 @@
+{
+  "name": "vconf-loader",
+  "version": "0.0.1",
+  "description": "Small library that targets to dynamically load variables (mostly as configs) from files basing on passed parameters during runtime. That approach allow to easy run tests while .env files isn't available during running tests.",
+  "main": "lib/index.js",
+  "scripts": {
+    "start:debug": "ts-node-dev --inspect --respawn -- src/debug/index.ts",
+    "test": "NODE_ENV=testing jest",
+    "build": "tsc --project tsconfig.build.json"
+  },
+  "keywords": [
+    "vconf",
+    "vconf-loader",
+    "config",
+    "config-loader",
+    "dynamic",
+    "dynamic-config",
+    "variable-loader",
+    "variable"
+  ],
+  "author": "Peter Kulazhenko",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^28.1.4",
+    "ts-jest": "^28.0.5",
+    "ts-node-dev": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Peterculazh/vconf-loader"
+  }
+}
