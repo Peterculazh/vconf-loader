@@ -9,7 +9,7 @@ const vconf = () => {
 
 class ConfigLoader {
 
-    async loadFileVariable<T>(params: ILoadDynamicFile<T>): Promise<T | null> {
+    async loadFileVariable<T>(params: ILoadDynamicFile<T>): Promise<T> {
         const {
             filePath,
             fileName,
