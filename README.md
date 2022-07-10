@@ -1,5 +1,4 @@
-# vconf
----
+# vconf-loader
 
 Small library that targets to dynamically load variables (mostly as configs) from files basing on passed parameters during runtime.
 
