@@ -45,7 +45,7 @@ const config = await loader.loadFileVariable<IConfig>({
 
 # API
 
----
+
 * **loadDynamicFile**
 
 `loadFileVariable<T>({
