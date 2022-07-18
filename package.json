@@ -1,6 +1,6 @@
 {
   "name": "vconf-loader",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Small library that targets to dynamically load variables (mostly as configs) from files basing on passed parameters during runtime. That approach allow to easy run tests while .env files isn't available during running tests.",
   "main": "lib/index.js",
   "scripts": {
